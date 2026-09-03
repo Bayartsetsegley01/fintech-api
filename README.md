@@ -39,7 +39,7 @@
 # Database бэлдэх
 psql postgres
 CREATE DATABASE fintech_api;
-CREATE USER fintech_user WITH PASSWORD 'fintech123';
+CREATE USER fintech_user WITH PASSWORD 'f******3';
 GRANT ALL PRIVILEGES ON DATABASE fintech_api TO fintech_user;
 
 # Backend
